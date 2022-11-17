@@ -11,6 +11,7 @@
 - Context
 - Reducer
 - Provider
+- React Router
 
 ## 🎯 Objetivo:
 

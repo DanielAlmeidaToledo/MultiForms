@@ -24,11 +24,11 @@ type FormProviderProps = {
 };
 
 const initialData: State = {
-    currentStep: 0,
-    name: '',
-    level: 0,
-    email: '',
-    github: ''
+  currentStep: 0,
+  name: "",
+  level: 0,
+  email: "",
+  github: "",
 };
 
 // Context
