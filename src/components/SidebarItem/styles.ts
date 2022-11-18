@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  margin: 30px 0;
+  margin: 3rem 0;
   cursor: pointer;
 
   a {
@@ -19,13 +19,13 @@ export const Title = styled.div`
   text-align: right;
   font-weight: bold;
   margin-bottom: 5px;
-  font-size: 15px;
+  font-size: 1.3rem;
   color: #fff;
 `;
 
 export const Description = styled.div`
   text-align: right;
-  font-size: 13px;
+  font-size: 0.9rem;
   color: #b8b8d4;
 `;
 
@@ -33,7 +33,7 @@ export const IconArea = styled.div<{ active: boolean }>`
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: ${(props) => (props.active ? "#25cd89" : "#494a7c")};
+  background-color: ${(props) => (props.active ? "#FFF" : "#808080")};
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,5 +51,5 @@ export const Point = styled.div<{ active: boolean }>`
   border: 3px solid #494a7c;
   border-radius: 50%;
   margin: 0 -6px 0 30px;
-  background-color: ${(props) => (props.active ? "#25cd89" : "#02044a")};
+  background-color: ${(props) => (props.active ? "#fff" : "#808080")};
 `;

@@ -39,7 +39,7 @@ export const FormStep2 = () => {
     <Theme>
       <C.Container>
         <p>Passo 2/3</p>
-        <h1>{state.name}, o que melhor descreve você?</h1>
+        <h1>{state.name}, o que melhor descreve o seu nível atual?</h1>
         <p>
           Escolha a opção que melhor condiz com seu estado atual,
           profissionalmente.
@@ -49,16 +49,16 @@ export const FormStep2 = () => {
 
         <SelectOption
           title="Sou iniciante"
-          description="Comecei a programar há menos de 2 anos"
-          icon="🥳"
+          description="Comecei a programar há menos de 1 ano"
+          icon="🛴"
           selected={state.level === 0}
           onClick={() => setLevel(0)}
         />
 
         <SelectOption
           title="Sou programador"
-          description="Já programo há dois anos ou mais"
-          icon="😎"
+          description="Já programo há 1 ano ou mais"
+          icon="🚀"
           selected={state.level === 1}
           onClick={() => setLevel(1)}
         />

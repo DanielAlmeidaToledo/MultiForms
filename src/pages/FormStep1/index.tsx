@@ -34,7 +34,7 @@ export const FormStep1 = () => {
     <Theme>
       <C.Container>
         <p>Passo 1/3</p>
-        <h1>Vamos começar com seu nome</h1>
+        <h1>Vamos iniciar com seu nome</h1>
         <p>Preencha o campo abaixo com o seu nome completo.</p>
 
         <hr />

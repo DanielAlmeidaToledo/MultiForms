@@ -2,15 +2,16 @@ import styled from "styled-components";
 
 export const Container = styled.div<{ selected: boolean }>`
   display: flex;
-  border: 2px solid ${(props) => (props.selected ? "#25CD89" : "#16195C")};
+  border: 2px solid ${(props) => (props.selected ? "#FFF" : "transparent")};
   border-radius: 10px;
   padding: 20px;
   margin-bottom: 15px;
   align-items: center;
   cursor: pointer;
+  transition: 0.2s;
 
   &:hover {
-    border: 2px solid #496459;
+    border: 2px solid #dcdcdc;
   }
 `;
 
@@ -18,7 +19,7 @@ export const Icon = styled.div`
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background-color: #191a59;
+  background-color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
