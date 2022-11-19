@@ -13,6 +13,6 @@ export const Container = styled.div`
 
   p {
     font-size: 1.3rem;
-    color: #b8b8d4;
+    color: #404040;
   }
 `;

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
     p {
         font-size: 1rem;
-        color: #B8B8D4;
+        color: #404040;
     }
     h1 {
         margin: .5rem 0 0 0;
@@ -22,53 +22,47 @@ export const Container = styled.div`
 
         input {
             display: block;
-            margin: .7rem 0 1.3rem 0;
+            margin: .3rem 0 1rem;
             box-sizing: border-box;
             width: 100%;
             padding: 20px 10px;
-            border: 2px solid #fff;
+            border: 2px solid #B0B0B0;
             border-radius: 10px;
             color: #000;
             font-weight: bold;
             outline: 0;
             font-size: 15px;
-            background-color: #2B86C5;
-            transition: .5s;
-            background-color: #74EBD5;
-            background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+            background-color: #fff;
         }
 
         input:focus{
-            background-color: transparent;
-            background-image: none;
-            color: #FFF;
-            transition: .3s;
+            border: 2px solid #000;
         }
     }
 
     button {
-        background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
-        color: #000;
+        background-color: #000;
+        color: #FFF;
         font-size: 1rem;
         font-weight: bold;
         padding: 1rem 2.5rem;
         border: 2px solid #fff;
         border-radius: 1rem;
         cursor: pointer;
-        margin-top: 1rem;
+        margin-top: 2rem;
         transition: .3s;
     }
 
     button:hover {
         background-color: transparent;
-        background-image: none;
-        color: #FFF;
+        color: #000;
+        border: 2px solid #000;
     }
 
     .backButton {
         font-size: 16px;
         text-decoration: none;
         padding: 20px 40px;
-        color: #B8B8D4;
+        color: #000;
     }
 `;

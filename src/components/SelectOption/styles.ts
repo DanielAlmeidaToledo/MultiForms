@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div<{ selected: boolean }>`
   display: flex;
-  border: 2px solid ${(props) => (props.selected ? "#FFF" : "transparent")};
+  border: 2px solid ${(props) => (props.selected ? "#404040" : "transparent")};
   border-radius: 10px;
   padding: 20px;
   margin-bottom: 15px;
@@ -11,7 +11,7 @@ export const Container = styled.div<{ selected: boolean }>`
   transition: 0.2s;
 
   &:hover {
-    border: 2px solid #dcdcdc;
+    border: 2px solid #404040;
   }
 `;
 
@@ -38,5 +38,5 @@ export const Title = styled.div`
 
 export const Description = styled.div`
   font-size: 14px;
-  color: #b8b8d4;
+  color: #404040;
 `;

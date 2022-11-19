@@ -51,7 +51,7 @@ export const FormStep3 = () => {
         <hr />
 
         <label>
-          Qual seu e-mail?
+          Qual seu E-mail?
           <input
             type="email"
             value={state.email}

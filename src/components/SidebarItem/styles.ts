@@ -20,20 +20,20 @@ export const Title = styled.div`
   font-weight: bold;
   margin-bottom: 5px;
   font-size: 1.3rem;
-  color: #fff;
+  color: #000;
 `;
 
 export const Description = styled.div`
   text-align: right;
   font-size: 0.9rem;
-  color: #b8b8d4;
+  color: #808080;
 `;
 
 export const IconArea = styled.div<{ active: boolean }>`
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: ${(props) => (props.active ? "#FFF" : "#808080")};
+  background-color: ${(props) => (props.active ? "#FFF" : "#fffdez")};
   display: flex;
   justify-content: center;
   align-items: center;
