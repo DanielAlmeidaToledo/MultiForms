@@ -21,7 +21,7 @@ export const FormStep3 = () => {
 
   const handleNextStep = () => {
     if (state.email !== "" && state.github !== "") {
-      console.log(state);
+      history("/result");
     } else {
       alert("Preencha os dados");
     }

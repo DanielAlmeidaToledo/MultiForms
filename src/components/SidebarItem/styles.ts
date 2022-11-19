@@ -26,7 +26,7 @@ export const Title = styled.div`
 export const Description = styled.div`
   text-align: right;
   font-size: 0.9rem;
-  color: #808080;
+  color: #404040;
 `;
 
 export const IconArea = styled.div<{ active: boolean }>`
@@ -48,8 +48,8 @@ export const IconArea = styled.div<{ active: boolean }>`
 export const Point = styled.div<{ active: boolean }>`
   width: 6px;
   height: 6px;
-  border: 3px solid #494a7c;
+  border: 3px solid #000;
   border-radius: 50%;
   margin: 0 -6px 0 30px;
-  background-color: ${(props) => (props.active ? "#fff" : "#808080")};
+  background-color: ${(props) => (props.active ? "#000" : "#fff")};
 `;

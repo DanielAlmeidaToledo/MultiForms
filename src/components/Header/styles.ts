@@ -5,6 +5,13 @@ export const Container = styled.div`
   border-bottom: 2px solid #fff;
   text-align: center;
 
+  img {
+    width: 170px;
+    position: absolute;
+    display: flex;
+    margin-top: -3rem;
+  }
+
   h1 {
     margin: 0;
     padding: 0;

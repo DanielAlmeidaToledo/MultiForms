@@ -3,6 +3,7 @@ import * as C from "./styles";
 import person from "../../svgs/person.svg";
 import code from "../../svgs/code.svg";
 import mail from "../../svgs/mail.svg";
+import check from "../../svgs/check.svg";
 
 type Props = {
   title: string;
@@ -32,6 +33,7 @@ export const SidebarItem = ({
           )}
           {icon === "book" && <img src={code} className="imgIcon" alt="" />}
           {icon === "mail" && <img src={mail} className="imgIcon" alt="" />}
+          {icon === "check" && <img src={check} className="imgIcon" alt="" />}
         </C.IconArea>
         <C.Point active={active}></C.Point>
       </Link>
