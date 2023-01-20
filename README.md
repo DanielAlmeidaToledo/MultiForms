@@ -13,7 +13,7 @@ https://user-images.githubusercontent.com/96501443/202926534-c88c6b5f-540b-40a9-
 - Reducer
 - Provider
 - React Router
-- Css
+- CSS
 
 ## 🎯 Objetivo:
 
